@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Webby\\Extensions\\ContactForm\\": "src/"
+			"Webby\\Extensions\\CookieConsent\\": "src/"
 		}
 	},
 	"config": {
