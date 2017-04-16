@@ -1,0 +1,25 @@
+{
+	"name": "webby/extension-cookie-consent",
+	"type": "webby-extension",
+	"description": "Cookie consent extension for Webby CMS",
+	"keywords": ["webby","plugin","extension","cookie","consent"],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Bronislav Sedlák",
+			"homepage": "https://bronislavsedlak.com"
+		}
+	],
+	"require": {
+		"nette/forms": "^2.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Webby\\Extensions\\ContactForm\\": "src/"
+		}
+	},
+	"config": {
+		"secure-http": false
+	},
+	"minimum-stability": "dev"
+}
