@@ -36,7 +36,7 @@ class Form
             $section->value = true;
 
             if ($presenter->isAjax()) {
-                $presenter->getParticles()->invalidate([$particle]);
+                $presenter->invalidate([$particle]);
             } else {
                 $presenter->redirect($link);
             }
