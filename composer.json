@@ -1,5 +1,5 @@
 {
-	"name": "webby/extension-cookie-consent",
+	"name": "bauer01/webby-extension-cookie-consent",
 	"type": "webby-extension",
 	"description": "Cookie consent extension for Webby CMS",
 	"keywords": ["webby","plugin","extension","cookie","consent"],
